@@ -19,12 +19,10 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-          
             text-align: center;
         }
-        
         h1 {
-            font-size: 8rem;
+            font-size: 6rem;
             color: green;
             margin: 10px 0;
         }
@@ -32,20 +30,29 @@
             font-weight: bold;
             font-size: 2rem;
         }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 8rem;
+            }
+        }
     </style>
 </head>
 <body>
-            <div class="card border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex justify-content-start">
-                        <div class="feature-icon-3 me-4">
-                            <p style="font-size: 3rem;">Nomor Antrian Sekarang</p>
-                            <h1 id="nomor-antrian" style="font-size: 20rem;">0</h1>
-                        
-                    
+    <div class="container bg-white">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-start">
+                            <div class="feature-icon-3 me-4">
+                                <p style="font-size: 3rem;"> Antrian Sekarang</p>
+                                <h1 id="nomor-antrian" style="font-size: 6rem;">0</h1>
+                           
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
     <script>
@@ -62,3 +69,4 @@
     </script>
 </body>
 </html>
+

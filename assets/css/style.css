@@ -8,11 +8,12 @@ body {
 .card {
     border-radius: 15px;
     transition: transform 0.3s;
-}
+} 
 
-.card:hover {
+ .card:hover {
     transform: scale(1.05);
 }
+
 
 .feature-icon-3 i {
     font-size: 2rem;

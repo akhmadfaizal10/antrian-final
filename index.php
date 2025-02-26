@@ -105,7 +105,7 @@
                 </div>
                 <div>
                   <p id="sisa-antrian" class="fs-3 text-danger mb-1"></p>
-                  <p class="mb-0">Sisa Antrian</p>
+                  <p class="mb-0">Sisa  Antrian</p>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@
         </div>
       </div>
 
-      <div class="card border-0 shadow-sm">
+      <div class="car bg-white border-0 shadow-sm">
         <div class="card-body p-4">
           <div class="table-responsive">
             <table id="tabel-antrian" class="table table-bordered table-striped table-hover" width="100%">
